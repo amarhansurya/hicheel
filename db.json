@@ -1,11 +1,11 @@
 {
 "brands" : [
-{ "id": 1, "title":	"Abarth", "logo":"https://pictures.topspeed.com/IMG/crop/201810/acura-2_0x65w.png"},
 { "id": 2, "title":	"Alfa Romeo", "logo":"https://pictures.topspeed.com/IMG/crop/200801/alfa-romeo-1_0x65w.jpg"},
 { "id": 3, "title":	"Aston Martin", "logo":"https://pictures.topspeed.com/IMG/crop/201810/aston-martin_0x65w.png"},
 { "id": 4, "title":	"Audi", "logo":"https://pictures.topspeed.com/IMG/crop/201810/Audi-5-1-1-1_0x65w.jpg"},
 { "id": 5, "title":	"Bentley", "logo":"https://pictures.topspeed.com/IMG/crop/201810/bentley_0x65w.png"},
 { "id": 6, "title":	"Bmw", "logo":"https://pictures.topspeed.com/IMG/crop/201810/bmw_0x65w.jpg"},
+{ "id": 10, "title":    "Cadillac", "logo":"https://pictures.topspeed.com/IMG/crop/201810/cadillac_0x65w.png"},
 { "id": 17, "title":	"Ferrari", "logo":"https://pictures.topspeed.com/IMG/crop/201810/Ferrari-6-2-1-1-1-1_0x65w.jpg"},
 { "id": 18, "title":	"Fiat", "logo":"https://pictures.topspeed.com/IMG/crop/201810/fiat-1-1_0x65w.jpg"},
 { "id": 19, "title":	"Ford", "logo":"https://pictures.topspeed.com/IMG/crop/201810/ford-21-1-1-1-1-1-1-1_0x65w.jpg"},
@@ -32,10 +32,7 @@
 { "id": 55, "title":	"Volvo", "logo":"https://pictures.topspeed.com/IMG/crop/201810/volvo-2-1-1_0x65w.jpg"}
 ],
 "models": [
-    { "id": 1, "models": [ 
-    	{"title": "500", "branId": 1, "modelId": 1}, {"title":"Grande Punto","branId": 1, "modelId": 2}, 
-    	{ "title":"Punto Evo","branId": 1, "modelId": 3 }, {"title": "Punto","branId": 1, "modelId": 4}]
-	},
+    
 	{ "id": 2, "models": [ 
     	{"title": "Gtv", "branId": 2, "modelId": 1}, {"title":"Spider","branId": 2, "modelId": 2}, 
     	{ "title":"Sprint","branId": 2, "modelId": 3}, {"title": "Mito","branId": 2, "modelId": 4},
@@ -55,9 +52,14 @@
     	{ "title":"Arnage","branId": 5, "modelId": 3}, {"title": "Mulsanne","branId": 5, "modelId": 4}]
 	},
 	{ "id": 6, "models": [ 
-    	{"title": "Sts", "branId": 6, "modelId": 1}, {"title":"El Dorado","branId": 6, "modelId": 2}, 
-    	{ "title":"Escalade","branId": 6, "modelId": 3}, {"title": "Bls","branId": 6, "modelId": 4}]
+    	{"title": "Serie 3", "branId": 6, "modelId": 1}, {"title":"Compact","branId": 6, "modelId": 2}, 
+    	{ "title":"X5","branId": 6, "modelId": 3}, {"title": "Z1","branId": 6, "modelId": 4}]
 	},
+    { "id": 10, "models": [ 
+        {"title": "Seville", "branId": 1, "modelId": 10}, {"title":"El Dorado","branId": 10, "modelId": 2}, 
+        { "title":"Escalade","branId": 10, "modelId": 3 }, {"title": "Sts","branId": 10, "modelId": 4}]
+    },
+
 	{ "id": 17, "models": [ 
     	{"title": "Maranello", "branId": 17, "modelId": 1}, {"title":"Enzo","branId": 17, "modelId": 2}, 
     	{ "title":"Superamerica","branId": 17, "modelId": 3}, {"title": "F430","branId": 17, "modelId": 4}]
