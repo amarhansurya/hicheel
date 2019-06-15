@@ -1,7 +1,6 @@
 {
 "brands" : [
 { "id": 2, "title":	"Alfa Romeo", "logo":"https://pictures.topspeed.com/IMG/crop/200801/alfa-romeo-1_0x65w.jpg"},
-{ "id": 3, "title":	"Aston Martin", "logo":"https://pictures.topspeed.com/IMG/crop/201810/aston-martin_0x65w.png"},
 { "id": 4, "title":	"Audi", "logo":"https://pictures.topspeed.com/IMG/crop/201810/Audi-5-1-1-1_0x65w.jpg"},
 { "id": 5, "title":	"Bentley", "logo":"https://pictures.topspeed.com/IMG/crop/201810/bentley_0x65w.png"},
 { "id": 6, "title":	"Bmw", "logo":"https://pictures.topspeed.com/IMG/crop/201810/bmw_0x65w.jpg"},
@@ -27,6 +26,7 @@
 { "id": 47, "title":	"Porsche", "logo":"https://pictures.topspeed.com/IMG/crop/201810/Porsche-4-1-1-1-1-1-1-1_0x65w.jpg"},
 { "id": 48, "title":	"Renault", "logo":"https://pictures.topspeed.com/IMG/crop/201810/renault_0x65w.jpg"},
 { "id": 47, "title":	"Rolls-royce", "logo":"https://pictures.topspeed.com/IMG/crop/201810/Rolls_Royce-1_0x65w.jpg"},
+{ "id": 48, "title":    "Skoda", "logo":"https://pictures.topspeed.com/IMG/crop/201810/skoda-1_0x65w.jpg"},
 { "id": 52, "title":	"Tesla", "logo":"https://pictures.topspeed.com/IMG/crop/201810/tesla_0x65w.png"},
 { "id": 53, "title":	"Toyota", "logo":"https://pictures.topspeed.com/IMG/crop/201810/toyota-9-1-1-1-1_0x65w.jpg"},
 { "id": 55, "title":	"Volvo", "logo":"https://pictures.topspeed.com/IMG/crop/201810/volvo-2-1-1_0x65w.jpg"}
@@ -72,6 +72,10 @@
     	{"title": "Civic", "branId": 23, "modelId": 1}, {"title":"Prelude","branId": 23, "modelId": 2}, 
     	{ "title":"CRV","branId": 23, "modelId": 3}, {"title": "Insight","branId": 23, "modelId": 4}]
 	},
+    { "id": 48, "models": [ 
+        {"title": "Felicia", "branId": 48, "modelId": 1}, {"title":"Octavia","branId": 48, "modelId": 2}, 
+        { "title":"Fabia","branId": 48, "modelId": 3}, {"title": "Yeti","branId": 48, "modelId": 4}]
+    },
 	{ "id": 53, "models": [ 
     	{"title": "Carina E", "branId": 53, "modelId": 1}, {"title":"Corolla", "branId": 53, "modelId": 2}, 
     	{"title": "Rav4","branId": 53, "modelId": 3}, {"title": "Celica","branId": 53, "modelId": 4}, 
